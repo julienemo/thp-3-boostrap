@@ -1,96 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-<!--Identity items here-->
-    <link rel="icon" href="images/favicon.png">
-    <title>Google is here!</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/pricing/">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  </head>
-  <body>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel = "icon" href= "images/favicon.png"></link>
+        <title>Google is here</title>
+        <!-- Required meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
 
-    <div class="container">
-      <div class = "row">
-        <header class = "column">
-<!--Header here-->
-          <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal">Google</h5>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light my-2 my-md-0 mr-md-3">
-              <a class="p-2 text-dark" href="https://fr.wikipedia.org/wiki/Google">Our WIKI page</a>
-              <a class="p-2 text-dark" href="https://www.google.com/search?q=google&oq=google&aqs=chrome.0.0j69i60l2j0j69i59j69i60.1164j0j4&sourceid=chrome&ie=UTF-8">Our Google page</a>
-            </nav>
+  <body class = "container" style = "padding : 0 width = 100%">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style = "width:100%">
+      <a class="navbar-brand" href="http://google.com"><img src = "images/logo.png" alt = "google_logo" style = "width:80px"></a>
+          <div class="nav-item active">
+           <h5><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+           </h5>
           </div>
-        </header>
-
-
-        <middle class = "column">
-<!--Carousel here !-->
-<!--Slides only-->
-<!--Had to adjust size with in line CSS though-->
-          <div id="carouselExampleSlidesOnly" style="width: 400px; margin: 0" autoclass="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="images/1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="images/2.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="images/3.jpg" alt="Third slide">
-              </div>
-            </div>
+          <h5><div class="nav-item">
+            <a class="nav-link" href="#">Our Wiki</a></h5>
           </div>
-
-          <div class = >
-            <div class = "row">row 1 logos
-              <div class = "column-sm">row 1 ele 1 logo</div>
-              <div class = "column-sm">row 1 ele 2 logo</div>
-              <div class = "column-sm">row 1 ele 3 logo</div>
-            </div>
-
-            <div class = "row">row 2 adjs
-              <div class = "column-sm">row 2 ele 1 adj</div>
-              <div class = "column-sm">row 2 ele 2 adj</div>
-              <div class = "column-sm">row 2 ele 3 adj</div>
-            </div>
-
-            <div class = "row">row 3 pres
-              <div class = "column-sm">row 3 ele 1 pres</div>
-              <div class = "column-sm">row 3 ele 2 pres</div>
-              <div class = "column-sm">row 3 ele 3 pres</div>
-            </div>
+          <div class="nav-item">
+            <h5><a class="nav-link" href="#">Our Google</a></h5>
           </div>
-        </middle>
+    </nav>
 
-        <footer class = "column">
-          footermessage
-        </footer>
+   <div id="carouselExampleSlidesOnly"  style="width: 100%; margin: 0 auto" class="carousel slide" data-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active" >
+         <img class="d-block w-100" src="images/1.jpg" alt="First slide">
+       </div>
+       <div class="carousel-item">
+         <img class="d-block w-100" src="images/2.jpg" alt="Second slide">
+       </div>
+       <div class="carousel-item">
+         <img class="d-block w-100" src="images/3.jpg" alt="Third slide">
+       </div>
+     </div>
+   </div>
+
+   <div class = "d-flex p-2 bd-highlight container justify-content-center">
+     <div class = "row">
+       <a href = "http://www.google.com"><button type="button" style="width: 200px; margin: auto" class="btn btn-dark">GO SEARCHING</button></a>
+     </div>
+   </div>
+
+   <div class="container" style = "magin:auto">
+     <div class="row align-items-start">
+       <div class="col">
+         <i class="fas fa-microscope" style = "width:40px"></i>
+       </div>
+       <div class="col">
+         <i class="fas fa-sort-alpha-down"></i>
+       </div>
+       <div class="col">
+         <i class="fas fa-umbrella"></i>
+       </div>
+     </div>
+     <div class="row align-items-center">
+       <div class="col">
+         <h5 class = "font-weight-bold">Factual</h5>
+       </div>
+       <div class="col">
+         <h5 class = "font-weight-bold">Concise</h5>
+       </div>
+       <div class="col">
+         <h5 class = "font-weight-bold" >Secured</h5>
+       </div>
+     </div>
+     <div class="row align-items-end">
+       <div class="col">
+         <p class="text-justify">
+         arch-enemy of a fraction of the people, namely, the opposition
+party or parties and their supporters. The opposition is, there
+         </p>
+       </div>
+       <div class="col">
+         <p class="text-justify">
+         opportunistically seeking to replace the ruling party. According
+to modern democracy, the legitimate check on the ruling party
+         </p>
+       </div>
+       <div class="col">
+         <p class="text-justify">
+        ruling party. That is to say, control is in the hands of the ruling party, and power is in the hands of the controlling party.
+        </p>
+       </div>
+     </div>
+   </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer font-small blue pt-4">
+      <div class="footer-copyright text-center py-3">©Powered by Julie Kwok &
+        <a href="https://getbootstrap.com"> Bootstrap</a>
       </div>
-    </div>
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<!--TO DO : footer stick to buttom, button text bold. page width 100%, pages elements vertically space between-->
